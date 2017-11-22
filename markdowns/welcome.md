@@ -1,13 +1,18 @@
-# Welcome!
+# Introduction
 
-This Python template lets you get started quickly with a simple working example. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
+Unit Testing is a one of the best practice that should be performed starting from the first stages and throughout the whole process of development. Unit tests are written to detect bugs early in the development of the application when bugs are less frequent and less expensive to fix.
 
+In this playgroud we will be using unittest module which is a part of the PythonStandart Library
 
-The source code is on [GitHub](https://github.com/TechDotIO/python-template), please feel free to come up with proposals to improve it.
+The source code is on [GitHub](https://github.com/abdesslem/playground-Nru8VX7O), please feel free to come up with proposals to improve it.
 
-# First example
+# Creating a simple test:
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["sample.py"], "command": "python3 sample.py"})
+Supposing that we have a very simple add function which return the sum of two integer.
+
+To create a unit test, we have to create a class inheriting from unittest.TestCase
+
+@[Error: You have to check your function !!]({"stubs": ["sample.py"], "command": "python3 sample.py"})
 
 
 # Second example
