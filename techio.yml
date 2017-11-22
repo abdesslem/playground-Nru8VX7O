@@ -1,6 +1,6 @@
-title: Python Unit Test with pytest
+title: Python Unit Test with unittest
 plan:
-- title: Welcome
+- title: Introduction
   statement: markdowns/welcome.md
 projects:
   python:
