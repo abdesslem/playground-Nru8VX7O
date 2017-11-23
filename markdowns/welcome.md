@@ -37,6 +37,17 @@ unittest provide others functions such as:
 
 # Using assertTrue and assertIn
 
-@[Verify if '1' exist in the list]({"stubs": ["test_true.py"], "command": "python3 test_true.py"})
+@['1' exist in the list but FOo is not uppercase]({"stubs": ["test_true.py"], "command": "python3 test_true.py"})
+
+# setUp()
+
+When a setUp() method is defined, the test runner will run that method prior to each test.
+
+@[setUp() executed before each test !]({"stubs": ["test_true.py"], "command": "python3 test_true.py"})
+
 
 # Test discovery
+
+Test discovery is used when you have many test files in that case It would be annoying to have to run each test file separately.
+
+Supposing that you have all your test files in a "tests" directory. To run all of the unittests, use python -m unittest discover tests
