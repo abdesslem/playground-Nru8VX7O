@@ -1,11 +1,11 @@
 import unittest
 
-def fun(x):
-    return x + 1
+def add(x,y):
+    return x + y
 
 class MyTest(unittest.TestCase):
     def test(self):
-        self.assertEqual(fun(3), 8)
+        self.assertEqual(add(3,4), 8)
 
 if __name__ == '__main__':
     unittest.main()

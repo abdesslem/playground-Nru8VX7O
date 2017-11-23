@@ -2,7 +2,7 @@
 
 Unit Testing is a one of the best practice that should be performed starting from the first stages and throughout the whole process of development. Unit tests are written to detect bugs early in the development of the application when bugs are less frequent and less expensive to fix.
 
-In this playgroud we will be using unittest module which is a part of the PythonStandart Library
+In this playground I’ll cover the basics of how to create and run a simple test using unittest.
 
 The source code is on [GitHub](https://github.com/abdesslem/playground-Nru8VX7O), please feel free to come up with proposals to improve it.
 
@@ -10,14 +10,33 @@ The source code is on [GitHub](https://github.com/abdesslem/playground-Nru8VX7O)
 
 Supposing that we have a very simple add function which return the sum of two integer.
 
-To create a unit test, we have to create a class inheriting from unittest.TestCase
+To create a unit test, we have to:
 
-@[Error: You have to check your function !!]({"stubs": ["sample.py"], "command": "python3 sample.py"})
+- Create a class derived from unittest.TestCase
+- Create a function that start with "test"
+
+@[What's the result of 3 + 4 !!]({"stubs": ["sample.py"], "command": "python3 sample.py"})
+
+In the second example we will check if the result of 3 + 4 equals 8
+
+@[What's the result of 3 + 4 !!]({"stubs": ["sample2.py"], "command": "python3 sample2.py"})
+
+In these two example we used assertEqual() function to check for an expected result.
+
+unittest provide others functions such as:
+
+- assertTrue() or assertFalse() to verify a condition
+- assertRaises() to verify that a specific exception gets raised.
+- setUp() and tearDown() methods to define instructions that will be executed before and after each test method
 
 
-# Second example
+# Using assertRaises
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["sample2.py"], "command": "python3 sample2.py"})
+@[Raise Exception when the separator is not a string]({"stubs": ["test_except.py"], "command": "python3 test_except.py"})
 
 
-Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/python-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
+# Using assertTrue and assertIn
+
+@[Verify if '1' exist in the list]({"stubs": ["test_true.py"], "command": "python3 test_true.py"})
+
+# Test discovery
