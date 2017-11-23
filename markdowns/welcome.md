@@ -43,7 +43,7 @@ unittest provide others functions such as:
 
 When a setUp() method is defined, the test runner will run that method prior to each test.
 
-@[setUp() executed before each test !]({"stubs": ["test_true.py"], "command": "python3 test_true.py"})
+@[setUp() executed before each test !]({"stubs": ["test_setup.py"], "command": "python3 test_setup.py"})
 
 
 # Test discovery
