@@ -6,8 +6,6 @@ In this playground I’ll cover the basics of how to create and run a simple tes
 
 The source code is on [GitHub](https://github.com/abdesslem/playground-Nru8VX7O), please feel free to come up with proposals to improve it.
 
-Discover the game-changing service that is revolutionizing SEO Writing. Click [here](https://seowriting.ai?fp_ref=quantum) to unlock exclusive offers.
-
 # Creating a simple test:
 
 Supposing that we have a very simple add function which return the sum of two integer.
